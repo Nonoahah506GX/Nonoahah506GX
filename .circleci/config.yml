@@ -1,0 +1,8 @@
+orbs: commands:   
+  build: 
+    docker:       
+      - image: buildpack-deps:trusty        
+    steps:       
+      - run: echo "hello world"          
+  
+  
